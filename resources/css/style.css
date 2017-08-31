@@ -1,0 +1,72 @@
+html {
+  font-size: 18px;
+  font-family: helvetica;
+  line-height: 1.4;
+}
+
+.jumbotron, .jumbotrontxt, header, nav {
+  border: 1px solid red;
+}
+
+.jumbotron, header, .headerlogo, nav, nav ul {
+  display: flex;
+}
+
+.headerlogo, header {
+  font-size: 1rem;
+}
+
+.fontbold {
+  font-weight: bold;
+}
+
+.jumbotron, .maincontent, footer {
+  width: 100%;
+  }
+
+.site {
+  width: 960px;
+}
+
+.jumbotron {
+  flex-direction: column;
+  padding-top: 1rem;
+  height: 30rem;
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron, .headerlogo, nav ul {
+  align-items: center;
+}
+
+.cadetblue {
+  background-color: cadetblue;
+  color: white;
+}
+
+header {
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+
+.headerlogo img {
+    height: 1.5rem;
+    padding-right: 1rem;
+}
+
+nav a {
+  margin: 0;
+  padding-left: 2rem;
+  text-decoration: none;
+}
+
+.jumbotrontxt {
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  font-size: 2rem;
+  line-height: 1.2;
+  align-self: flex-end;
+}
