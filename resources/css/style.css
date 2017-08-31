@@ -129,6 +129,10 @@ nav a {
   padding: 4rem 1rem 4rem 4rem;
 }
 
+.smsite {
+  display: none;
+}
+
 @media only screen and (max-width: 1024px) {
   .site, .jumbotrontxtcontainer {
     width: 100%;
@@ -148,5 +152,69 @@ nav a {
 }
 
 @media only screen and (max-width: 470px) {
+  .lgsite, .headerlogo p {
+    display: none;
+  }
+
+  .smsite {
+    display: inline;
+  }
+
+  .jumbotron {
+    height: 17rem;
+    background-position: 20%;
+  }
+
+  .jumbotrontxt {
+    margin: 9rem 0;
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+
+  .maincontent{
+    padding-top:  3.77rem;
+  }
+
+  .qualities, .contenttxt {
+    flex-direction: column;
+  }
+
+  .qualities {
+    height: auto;
+    align-items: center;
+  }
+
+  .quality, .titles p {
+    font-size: 0.77rem;
+  }
+
+  .quality img, .quality p {
+    padding-bottom: 1.54rem;
+  }
+
+  .titles {
+    padding-top: 2.23rem;
+  }
+
+  .titles, .titles h1 {
+    width: 100%;
+  }
+
+  .titles h1 {
+    text-align: center;
+  }
+
+  .titles p {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .footer {
+    justify-content: center;
+  }
+  
+  .footer p {
+    display: none;
+  }
 
 }
