@@ -4,11 +4,11 @@ html {
   line-height: 1.4;
 }
 
-.jumbotron, .jumbotrontxt, header, nav, .maincontent, .qualities, .quality, .quality p, .contenttxt, .titles {
+.jumbotron, .jumbotrontxt, header, nav, .maincontent, .qualities, .quality, .quality p, .contenttxt, .titles, .jumbotrontxtcontainer, footer, .footer {
   border: 1px solid red;
 }
 
-.jumbotron, header, .headerlogo, nav, nav ul, .maincontent, .qualities, .quality, .contenttxt, .titles, footer {
+.jumbotron, header, .headerlogo, nav, nav ul, .maincontent, .qualities, .quality, .contenttxt, .titles, footer, .jumbotrontxtcontainer, .footer {
   display: flex;
 }
 
@@ -28,6 +28,11 @@ html {
   width: 960px;
 }
 
+.jumbotrontxtcontainer {
+  width: 996px;
+  justify-content: flex-end;
+}
+
 .column {
   flex-direction: column;
 }
@@ -40,7 +45,7 @@ html {
   background-size: cover;
 }
 
-.jumbotron, .headerlogo, nav ul, .quality, .maincontent, footer {
+.jumbotron, .headerlogo, nav ul, .quality, .maincontent, .footer {
   align-items: center;
 }
 
@@ -53,10 +58,6 @@ html {
   color: white;
 }
 
-header {
-  padding: 1rem 2rem;
-}
-
 header, .quality {
   justify-content: space-between;
 }
@@ -64,6 +65,11 @@ header, .quality {
 .headerlogo img {
     height: 1.5rem;
     padding-right: 1rem;
+    padding-left: 2rem;
+}
+
+nav {
+  padding: 1rem 2rem;
 }
 
 nav a {
@@ -72,6 +78,7 @@ nav a {
 }
 
 .jumbotrontxt {
+  flex-basis: auto;
   margin-top: 10rem;
   padding: 1.5rem 5rem;
   background-color: white;
@@ -84,7 +91,7 @@ nav a {
   padding-top: 3rem;
 }
 
-.qualities, .contenttxt {
+.qualities, .contenttxt, footer {
   justify-content: center;
 }
 
@@ -113,13 +120,11 @@ nav a {
   width: 10rem;
 }
 
-footer {
-  padding: 4rem;
+.footer {
   background-color: azure;
-  justify-content: flex-start;
 }
 
-footer img {
+.footer img {
   height: 1.5rem;
-  padding-right: 1rem;
+  padding: 4rem 1rem 4rem 4rem;
 }
