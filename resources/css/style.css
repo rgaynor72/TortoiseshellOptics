@@ -128,3 +128,25 @@ nav a {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 4rem;
 }
+
+@media only screen and (max-width: 1024px) {
+  .site, .jumbotrontxtcontainer {
+    width: 100%;
+  }
+
+  .jumbotron {
+    padding: 0;
+    height: 22rem;
+  }
+
+  .jumbotrontxt {
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+    font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+
+}
