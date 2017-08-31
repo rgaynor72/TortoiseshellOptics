@@ -4,9 +4,9 @@ html {
   line-height: 1.4;
 }
 
-.jumbotron, .jumbotrontxt, header, nav, .maincontent, .qualities, .quality, .quality p, .contenttxt, .titles, .jumbotrontxtcontainer, footer, .footer {
+/*.jumbotron, .jumbotrontxt, header, nav, .maincontent, .qualities, .quality, .quality p, .contenttxt, .titles, .jumbotrontxtcontainer, footer, .footer {
   border: 1px solid red;
-}
+}*/
 
 .jumbotron, header, .headerlogo, nav, nav ul, .maincontent, .qualities, .quality, .contenttxt, .titles, footer, .jumbotrontxtcontainer, .footer {
   display: flex;
@@ -212,7 +212,7 @@ nav a {
   .footer {
     justify-content: center;
   }
-  
+
   .footer p {
     display: none;
   }
